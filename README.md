@@ -2,7 +2,7 @@
 vim配置文件
 
 下载：
-git clone https://github.com/Nani0119/vim-config.git  ~/.vim
+git clone https://github.com/nani0119/vim-config.git  ~/.vim
 
 
 所需插件
