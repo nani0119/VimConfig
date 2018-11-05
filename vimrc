@@ -17,6 +17,7 @@ set history=100                          "指令历史
 syntax on                                 "语法高亮
 set wildmenu                              "启用补全导航列表
 set wildmode=full                        "zsh风格补全方式
+set hidden                               "启动隐藏缓冲区功能
 "==============================================================================
 "打开文件时恢复光标位置
 autocmd BufReadPost * 
