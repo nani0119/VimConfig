@@ -33,6 +33,12 @@ set smartindent                          "智能缩进
 "set cindent                             "c语言缩进
 filetype plugin indent on
 "=================================按键映射====================================
+"禁用光标键
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+ 
 "符号匹配按键映射
 "inoremap ( ()<ESC>i
 "inoremap [ []<ESC>i
