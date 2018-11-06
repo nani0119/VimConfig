@@ -68,3 +68,5 @@ cnoremap <C-n> <Down>
 "================================插件配置=====================================
 " FZF
  set rtp+=~/.fzf"
+" matchit 关键字间跳转
+runtime macros/matchit.vim
