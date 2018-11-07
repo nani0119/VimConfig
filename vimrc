@@ -33,6 +33,9 @@ set smartindent                          "智能缩进
 "set cindent                             "c语言缩进
 filetype plugin indent on
 "=================================按键映射====================================
+"展开当前文件所在目录
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
 "符号匹配按键映射
 "inoremap ( ()<ESC>i
 "inoremap [ []<ESC>i
