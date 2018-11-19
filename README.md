@@ -1,24 +1,24 @@
 # vim-config
-vim配置文件
+# vim配置文件
 
 
 下载：
 git clone https://github.com/nani0119/vim-config.git  ~/.vim
 
 
-所需插件
-1) fzf 
+# 所需插件
+## 1) fzf 
 
-地址：https://github.com/junegunn/fzf
+- 地址：https://github.com/junegunn/fzf
 
-快速查找
+- 快速查找
 
 
-2) unimpaired.vim
+## 2) unimpaired.vim
 
-地址：https://github.com/tpope/vim-unimpaired
+- 地址：https://github.com/tpope/vim-unimpaired
 
-创建快速遍历Vim列表的按键映射项
+- 创建快速遍历Vim列表的按键映射项
 
 [a / ]a   遍历参数列表
 
@@ -34,11 +34,11 @@ git clone https://github.com/nani0119/vim-config.git  ~/.vim
 
 
 
-3) commentary.vim
+## 3) commentary.vim
 
-地址：https://github.com/tpope/vim-commentary
+- 地址：https://github.com/tpope/vim-commentary
 
-快速注释
+- 快速注释
 
 gc{motion}           注释/反注释{motion}内容
 
@@ -50,11 +50,11 @@ gc                   注释/反注释文本对象(操作待觉模式)
 
 :[range]Commentary   注释/反注释范围
 
-4) surround.vim
+## 4) surround.vim
 
-地址： https://github.com/tpope/vim-surround
+- 地址： https://github.com/tpope/vim-surround
 
-为选中的文本加分割符
+- 为选中的文本加分割符
 
 "Hello world"      cs"'          'Hello world'
 
@@ -75,8 +75,8 @@ yss：针对整行
 cs： 修改
 
 
-5) visual-star-search.vim
+## 5) visual-star-search.vim
 
-地址：https://github.com/nelstrom/vim-visual-star-search
+- 地址：https://github.com/nelstrom/vim-visual-star-search
 
-在visual模式下通过‘\*’或‘#’实现查找选中的整段文本而不是单词
+- 在visual模式下通过‘\*’或‘#’实现查找选中的整段文本而不是单词
