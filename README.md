@@ -74,8 +74,9 @@ yss：针对整行
 
 cs： 修改
 
-     
 
+5) visual-star-search.vim
 
+地址：https://github.com/nelstrom/vim-visual-star-search
 
-
+在visual模式下通过‘\*’或‘#’实现查找选中的整段文本而不是单词
