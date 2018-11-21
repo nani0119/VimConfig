@@ -80,3 +80,12 @@ git clone https://github.com/nani0119/vim-config.git  ~/.vim
 - 地址：https://github.com/nelstrom/vim-visual-star-search
 
 - 在visual模式下通过‘\*’或‘#’实现查找选中的整段文本而不是单词
+
+### 6) qargs.vim
+
+- 地址：vim实用技巧/substitution
+
+- 通过Qargs命令将quickfix列表中的文件加载到参数列表中
+
+: vimgrep  /<c-r>// **/*.txt
+: Qargs
