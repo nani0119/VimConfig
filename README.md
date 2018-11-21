@@ -87,5 +87,6 @@ git clone https://github.com/nani0119/vim-config.git  ~/.vim
 
 - 通过Qargs命令将quickfix列表中的文件加载到参数列表中
 
-: vimgrep  /<c-r>// **/*.txt
+: vimgrep  /\<c-r\>// **/*.txt
+ 
 : Qargs
