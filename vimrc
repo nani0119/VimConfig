@@ -1,25 +1,6 @@
 " Vundle 插件管理配置
 " ===========================================================================
-set nocompatible
-filetype off
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-"Plugin 'VundleVim/Vundle.vim'
-
-" github中的插件
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'nelstrom/vim-visual-star-search'
-Plugin 'tpope/vim-markdown'
-
-" 非github下的插件
-"Plugin 'git://git.wincent.com/command-t.git'
-
-call vundle#end()            " required
-filetype plugin indent on    " required
+source plugin-manager.vim
 
 "===============================一般设置====================================
 set encoding=utf-8                       "使用UTF-8编码
