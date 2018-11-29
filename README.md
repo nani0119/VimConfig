@@ -94,3 +94,6 @@ git clone https://github.com/nani0119/vim-config.git  ~/.vim
  
 : Qargs
 
+### 7) vim-markdown
+
+- 地址：https://github.com/tpope/vim-markdown
