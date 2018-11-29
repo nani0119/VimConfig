@@ -5,6 +5,9 @@
 下载：
 git clone https://github.com/nani0119/vim-config.git  ~/.vim
 
+## 插件管理器
+
+- 地址：https://github.com/VundleVim/Vundle.vim
 
 ## 所需插件
 ### 1) fzf 
@@ -90,3 +93,4 @@ git clone https://github.com/nani0119/vim-config.git  ~/.vim
 : vimgrep     /\<c-r\>//    **/*.txt
  
 : Qargs
+
