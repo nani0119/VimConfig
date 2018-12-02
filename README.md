@@ -6,6 +6,10 @@
 
 - git clone https://github.com/nani0119/vim-config.git  ~/.vim
 
+- mkdir  ~/.vim/bundle
+
+- git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
+
 - 在vim中执行EX命令：PluginInstall 安装插件
 
 ## 插件管理器
