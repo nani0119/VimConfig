@@ -2,8 +2,11 @@
 ## vim配置文件
 
 
-下载：
-git clone https://github.com/nani0119/vim-config.git  ~/.vim
+下载安装：
+
+- git clone https://github.com/nani0119/vim-config.git  ~/.vim
+
+- 在vim中执行EX命令：PluginInstall 安装插件
 
 ## 插件管理器
 
