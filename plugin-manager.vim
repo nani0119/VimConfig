@@ -14,6 +14,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tpope/vim-markdown'
+Plugin 'dhruvasagar/vim-table-mode'
 
 " non githuab
 "Plugin 'git://git.wincent.com/command-t.git'
