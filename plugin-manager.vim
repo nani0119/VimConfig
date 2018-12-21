@@ -13,7 +13,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'nelstrom/vim-visual-star-search'
-Plugin 'tpope/vim-markdown'
+"Plugin 'tpope/vim-markdown'
 Plugin 'dhruvasagar/vim-table-mode'
 
 " non githuab
