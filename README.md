@@ -93,7 +93,7 @@
 
 - 通过Qargs命令将quickfix列表中的文件加载到参数列表中
 
-: vimgrep     /\<c-r\>//    **/*.txt
+: vimgrep     /<c-r>//    \*\*/\*.txt
  
 : Qargs
 
@@ -115,3 +115,7 @@
 7. \tdd 删除一行
 8. \tdc 删除一列
 9. i|、a| 表格文本对象
+
+### 9) asciitable.vim
+
+- \a 显示ansii码表
