@@ -78,3 +78,6 @@ cnoremap <C-n> <Down>
 set rtp+=~/.fzf"
 " matchit 关键字间跳转
 runtime macros/matchit.vim
+
+" custom config
+source ~/.vim/custom.vim

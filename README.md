@@ -93,10 +93,29 @@
 
 - 通过Qargs命令将quickfix列表中的文件加载到参数列表中
 
-: vimgrep     /\<c-r\>//    **/*.txt
+: vimgrep     /<c-r>//    \*\*/\*.txt
  
 : Qargs
 
 ### 7) vim-markdown
 
 - 地址：https://github.com/tpope/vim-markdown
+
+### 8) hruvasagar/vim-table-mode
+
+- 地址：https://github.com/dhruvasagar/vim-table-mode
+- 创建、格式化markdown表格
+
+1. let g:table_mode_corner='|'  //markdown表格
+2. \tm 打开或者关闭该功能
+3. |输入两次生成表头分割线
+4. \tt命令或者:[range]Tableize可以生成表格，数据间需要使用“,”分割
+5. [range]Tableize/{pattern}生成表格时使用其他分割符，例如1,5Tableize/;  ,使用;分割数据，g:table_mode_delimiter定义默认分割符
+6. [|, ]|, {|,|}在表格左右上下移动
+7. \tdd 删除一行
+8. \tdc 删除一列
+9. i|、a| 表格文本对象
+
+### 9) asciitable.vim
+
+- \a 显示ansii码表
