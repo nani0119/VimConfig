@@ -62,16 +62,6 @@
 
 - 为选中的文本加分割符
 
- "Hello world"      cs"'          'Hello world'
-
- 'Hello world'      cs'<q>        <q>Hello worls<q>
-
- "Hello world"      ds"           Hello world
-
- Hello world        ysiw]         [Hello] world
-
- Hello world        yss)          (Hello world)
-
  ds： 删除
 
  ys： 添加
@@ -80,6 +70,17 @@
 
  cs： 修改
 
+```
+               Hello World--->ysiw"--->Hello "World"--->yss[--->[Hello "World"]---
+                                                                                  |
+                                                                                 cs])
+																				  |
+ 'Hello "World"'<--- cst'<---<q>Hello "World"<\q><---cs)<q><---(Hello "World")<---
+|
+ds'
+|
+ ---> Hello "World"--->ds"--->Hello World--->yss<q>---><q>Hello World</q>--->dst--->Hello World
+```
 
 ### 5) visual-star-search.vim
 
@@ -97,11 +98,7 @@
  
 : Qargs
 
-### 7) vim-markdown
-
-- 地址：https://github.com/tpope/vim-markdown
-
-### 8) hruvasagar/vim-table-mode
+### 7) hruvasagar/vim-table-mode
 
 - 地址：https://github.com/dhruvasagar/vim-table-mode
 - 创建、格式化markdown表格
@@ -116,6 +113,6 @@
 8. \tdc 删除一列
 9. i|、a| 表格文本对象
 
-### 9) asciitable.vim
+### 8) asciitable.vim
 
 - \a 显示ansii码表
