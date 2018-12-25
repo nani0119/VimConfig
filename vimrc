@@ -73,6 +73,12 @@ noremap <Right> <Nop>
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 
+" 映射窗口切换命令
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 "================================插件配置===================================
 " FZF
 set rtp+=~/.fzf"
