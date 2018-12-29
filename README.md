@@ -116,3 +116,8 @@ ds'
 ### 8) asciitable.vim
 
 - \a 显示ansii码表
+
+### 9) vim-cpp-enhanced-highlight
+
+- 地址:https://github.com/octol/vim-cpp-enhanced-highlight
+- c\c++语言语法高亮
