@@ -16,6 +16,7 @@ Plugin 'nelstrom/vim-visual-star-search'
 "Plugin 'tpope/vim-markdown'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'WolfgangMehner/bash-support'
 " non githuab
 "Plugin 'git://git.wincent.com/command-t.git'
 

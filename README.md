@@ -121,3 +121,8 @@ ds'
 
 - 地址:https://github.com/octol/vim-cpp-enhanced-highlight
 - c\c++语言语法高亮
+
+### 10) bash-support
+
+- 地址:https://github.com/WolfgangMehner/bash-support
+- bash集成开发环境
