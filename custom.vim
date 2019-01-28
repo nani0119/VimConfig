@@ -38,4 +38,8 @@ let g:user_emmet_mode='inv'  "enable all functions, which is equal to
 let g:user_emmet_install_global = 0
 autocmd FileType html,css,vue,js EmmetInstall
 
+"==============================================================================
+"vim-vue config
+autocmd FileType vue syntax sync fromstart
+autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 

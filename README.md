@@ -131,3 +131,8 @@ ds'
 
 - 地址:https://github.com/mattn/emmet-vim
 - 使用C-y,快捷键生成html元素
+
+### 12) posva/vim-vue
+
+- 地址:https://github.com/posva/vim-vue
+- vue语法高亮
