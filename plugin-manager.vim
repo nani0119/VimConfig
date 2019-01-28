@@ -19,6 +19,7 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'WolfgangMehner/bash-support'
 " non githuab
 "Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

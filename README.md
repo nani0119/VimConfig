@@ -126,3 +126,8 @@ ds'
 
 - 地址:https://github.com/WolfgangMehner/bash-support
 - bash集成开发环境
+
+### 11) emmet-vim
+
+- 地址:https://github.com/mattn/emmet-vim
+- 使用C-y,快捷键生成html元素
