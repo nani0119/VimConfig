@@ -35,9 +35,8 @@ let g:table_mode_corner = '|'
 let g:user_emmet_mode='inv'  "enable all functions, which is equal to
 "let g:user_emmet_mode='a'    "enable all function in all mode.
 "Enable just for html/css
-let g:user_emmet_install_global = 0
-autocmd FileType html,css,vue,js EmmetInstall
-
+"let g:user_emmet_install_global = 0
+"autocmd FileType html,css EmmetInstall
 "==============================================================================
 "vim-vue config
 autocmd FileType vue syntax sync fromstart
