@@ -136,3 +136,8 @@ ds'
 
 - 地址:https://github.com/posva/vim-vue
 - vue语法高亮
+
+### 13) mark.vim
+
+- \m 高亮或取消标记
+- \n 取消所有标记 
