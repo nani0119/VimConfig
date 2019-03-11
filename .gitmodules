@@ -28,3 +28,9 @@
 [submodule "bundle/vim-vue"]
 	path = bundle/vim-vue
 	url = https://github.com/posva/vim-vue
+[submodule "bundle/cmakecache-syntax.vim"]
+	path = bundle/cmakecache-syntax.vim
+	url = https://github.com/Neui/cmakecache-syntax.vim
+[submodule "bundle/vim-cmake-syntax"]
+	path = bundle/vim-cmake-syntax
+	url = https://github.com/nickhutchinson/vim-cmake-syntax

@@ -20,6 +20,7 @@ Plugin 'WolfgangMehner/bash-support'
 " non githuab
 "Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'mattn/emmet-vim'
-
+Plugin 'nickhutchinson/vim-cmake-syntax'
+Plugin 'Neui/cmakecache-syntax.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
