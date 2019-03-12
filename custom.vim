@@ -42,3 +42,8 @@ let g:user_emmet_mode='inv'  "enable all functions, which is equal to
 autocmd FileType vue syntax sync fromstart
 autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 
+"==============================================================================
+"YouCompleteMe
+let g:ycm_enable_diagnostic_signs = 0
+let g:ycm_enable_diagnostic_highlighting = 0
+let g:ycm_echo_current_diagnostic = 1
