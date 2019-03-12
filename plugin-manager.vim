@@ -22,5 +22,7 @@ Plugin 'WolfgangMehner/bash-support'
 Plugin 'mattn/emmet-vim'
 Plugin 'nickhutchinson/vim-cmake-syntax'
 Plugin 'Neui/cmakecache-syntax.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'rdnetto/YCM-Generator'
 call vundle#end()            " required
 filetype plugin indent on    " required
