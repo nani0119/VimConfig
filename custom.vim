@@ -47,3 +47,4 @@ autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 let g:ycm_enable_diagnostic_signs = 0
 let g:ycm_enable_diagnostic_highlighting = 0
 let g:ycm_echo_current_diagnostic = 1
+set completeopt=menu
