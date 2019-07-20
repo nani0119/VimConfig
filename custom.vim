@@ -49,4 +49,10 @@ let g:ycm_enable_diagnostic_highlighting = 0
 let g:ycm_echo_current_diagnostic = 1
 set completeopt=menu
 "let g:ycm_auto_trigger = 0
+let g:ycm_key_list_select_completion = ['<c-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<c-p>', '<Up>']
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
+
+"==============================================================================
+"ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"

@@ -24,5 +24,7 @@ Plugin 'nickhutchinson/vim-cmake-syntax'
 Plugin 'Neui/cmakecache-syntax.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rdnetto/YCM-Generator'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 call vundle#end()            " required
 filetype plugin indent on    " required
