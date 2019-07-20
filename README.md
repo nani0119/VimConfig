@@ -147,3 +147,4 @@ ds'
 - 地址：https://github.com/ycm-core/YouCompleteMe
 - 依赖：sudo apt install build-essential cmake python3-dev
 - 安装：cd ~/.vim/bundle/YouCompleteMe；python3 install.py --clang-completer --java-completer
+- 配置：.ycm_extra_conf.py 添加 '-isystem','/usr/include/c++/7',
