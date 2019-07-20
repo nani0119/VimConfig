@@ -141,3 +141,9 @@ ds'
 
 - \m 高亮或取消标记
 - \n 取消所有标记 
+
+### 14) YouCompleteMe 配置
+
+- 地址：https://github.com/ycm-core/YouCompleteMe
+- 依赖：sudo apt install build-essential cmake python3-dev
+- 安装：cd ~/.vim/bundle/YouCompleteMe；python3 install.py --clang-completer --java-completer
