@@ -26,5 +26,6 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'rdnetto/YCM-Generator'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'mbbill/undotree'
 call vundle#end()            " required
 filetype plugin indent on    " required

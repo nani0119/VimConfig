@@ -148,3 +148,8 @@ ds'
 - 依赖：sudo apt install build-essential cmake python3-dev
 - 安装：cd ~/.vim/bundle/YouCompleteMe；python3 install.py --clang-completer --java-completer
 - 配置：.ycm_extra_conf.py 添加 '-isystem','/usr/include/c++/7',
+
+### 15) undo-tree
+- 地址：https://github.com/mbbill/undotree
+- 功能：在单独窗口内显示undo tree，通过UndotreeToggle命令触发
+

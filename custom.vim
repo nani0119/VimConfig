@@ -56,3 +56,9 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/
 "==============================================================================
 "ultisnips
 let g:UltiSnipsExpandTrigger="<tab>"
+
+"==============================================================================
+"undotree
+"let undotree window get focus after being opened
+let g:undotree_SetFocusWhenToggle = 0
+let g:undotree_WindowLayout = 2
