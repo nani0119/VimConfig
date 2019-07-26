@@ -62,3 +62,11 @@ let g:UltiSnipsExpandTrigger="<tab>"
 "let undotree window get focus after being opened
 let g:undotree_SetFocusWhenToggle = 0
 let g:undotree_WindowLayout = 2
+
+"==============================================================================
+"vim-commentary
+"for python and shell
+autocmd FileType python,shell,coffee set commentstring=#\ %s
+"commentary style
+autocmd FileType java,c,cpp set commentstring=//\ %s
+
