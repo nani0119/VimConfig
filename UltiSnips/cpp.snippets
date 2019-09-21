@@ -30,9 +30,73 @@ endglobal
 ###########################################################################
 #                            TextMate Snippets                            #
 ###########################################################################
+
+priority -48
+
 snippet forit "for (auto it = contain.begin()...)"
 for(auto it = ${1}.begin(); it != $1.end(); it++) {
 	$2
 }
 endsnippet
+
+snippet cl "class .. (class)"
+class ${1:`!p snip.rv = snip.basename or "name"`}
+{
+	//friend ostream& operator<<(ostream& os, const ${1/(\w+).*/$1/}& c);
+	//friend istream& operator>>(istream& is, ${1/(\w+).*/$1/}& c);
+	//friend ${1/(\w+).*/$1/} operator+(const ${1/(\w+).*/$1/}& lhs, const ${1/(\w+).*/$1/}& rhs);
+	//friend bool operator==(const ${1/(\w+).*/$1/}& lhs, const ${1/(\w+).*/$1/}& rhs);
+	//friend bool operator!=(const ${1/(\w+).*/$1/}& lhs, const ${1/(\w+).*/$1/}& rhs);
+public:
+	${1/(\w+).*/$1/}(${2:arguments});
+	//${1/(\w+).*/$1/}(const ${1/(\w+).*/$1/}& c);
+	//${1/(\w+).*/$1/}& operator=(const ${1/(\w+).*/$1/}& c);
+	//${1/(\w+).*/$1/}(${1/(\w+).*/$1/}&& rc);
+	//${1/(\w+).*/$1/}& operator=(${1/(\w+).*/$1/}&& rc);
+	//${1/(\w+).*/$1/}& operator+=(const ${1/(\w+).*/$1/}& rhs);
+	virtual ~${1/(\w+).*/$1/}();
+
+private:
+	${0:/* data */}
+};
+endsnippet
+
+snippet cla "An entire .h generator" b
+#ifndef ${2:`!v substitute(vim_snippets#Filename('$1_H','ClassName'),'.*','\U&\E','')`}
+#define $2
+
+class ${1:`!v substitute(substitute(vim_snippets#Filename('$1','ClassName'),'^.','\u&',''), '_\(\w\)', '\u\1', 'g')`}
+{
+	//friend ostream& operator<<(ostream& os, const $1& c);
+	//friend istream& operator>>(istream& is, $1& c);
+	//friend $1 operator+(const $1& lhs, const $1& rhs);
+	//friend bool operator==(const $1& lhs, const $1& rhs);
+	//friend bool operator!=(const $1& lhs, const $1& rhs);
+private:
+	$3
+
+public:
+	$1();
+
+	// copy construct
+	//$1(const $1& c);
+
+	//copy assignment
+	//$1& operator=(const $1& c);
+
+	//move construct
+	//$1($1&& rc);
+
+	//move assingnment
+	//$1& operator=($1&& rc);
+
+	//compound assignment
+	//$1& operator+=(const $1& rhs);
+
+	virtual ~$1();
+};
+
+#endif /* $2 */
+endsnippet
+
 # vim:ft=snippets:
