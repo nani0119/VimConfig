@@ -27,5 +27,7 @@ Plugin 'rdnetto/YCM-Generator'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'mbbill/undotree'
+Plugin 'LucHermitte/lh-vim-lib'
+Plugin 'LucHermitte/VimFold4C'
 call vundle#end()            " required
 filetype plugin indent on    " required

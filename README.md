@@ -153,3 +153,6 @@ ds'
 - 地址：https://github.com/mbbill/undotree
 - 功能：在单独窗口内显示undo tree，通过UndotreeToggle命令触发
 
+### 16) VimFold4C
+- 地址：https://github.com/LucHermitte/VimFold4C
+- 功能：c/c++ 代码折叠功能

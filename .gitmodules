@@ -49,3 +49,9 @@
 [submodule "bundle/undotree"]
 	path = bundle/undotree
 	url = https://github.com/mbbill/undotree
+[submodule "bundle/VimFold4C"]
+	path = bundle/VimFold4C
+	url = https://github.com/LucHermitte/VimFold4C
+[submodule "bundle/lh-vim-lib"]
+	path = bundle/lh-vim-lib
+	url = https://github.com/LucHermitte/lh-vim-lib

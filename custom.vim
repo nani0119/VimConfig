@@ -70,3 +70,21 @@ autocmd FileType python,shell,coffee set commentstring=#\ %s
 "commentary style
 autocmd FileType java,c,cpp set commentstring=//\ %s
 
+"==============================================================================
+"LucHermitte/VimFold4C
+let b:fold_options = {
+   \ 'fallback_method' : { 'line_threshold' : 2000, 'method' : 'syntax' },
+   \ 'fold_blank': 0,
+   \ 'fold_includes': 0,
+   \ 'max_foldline_length': 'win',
+   \ 'merge_comments' : 1,
+   \ 'show_if_and_else': 1,
+   \ 'strip_namespaces': 1,
+   \ 'strip_template_arguments': 1
+   \ }
+
+"使用语法高亮定义代码折叠
+" set foldmethod=syntax
+"打开文件是默认不折叠代码
+set foldlevelstart=99
+
