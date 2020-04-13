@@ -79,6 +79,14 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" insert mode移动配置
+inoremap <C-l> <Right>
+inoremap <C-h> <Left>
+inoremap <C-k> <Up>
+inoremap <C-j> <Down>
+inoremap <C-b> <PageUp>
+inoremap <C-f> <PageDown>
+
 "================================插件配置===================================
 " FZF
 set rtp+=~/.fzf"
